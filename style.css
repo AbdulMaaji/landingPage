@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  font-family: "Poppins", serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: #eee;
+  z-index: 1;
+}
+
+header ul {
+  margin: 15px;
+}
+
+header li {
+  margin-right: 100px;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+}
+
+li > a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+form {
+  padding-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+form > input[type="email"] {
+  width: 260px;
+  padding: 5px 0 5px 10px;
+  border: none;
+  margin-top: 15px;
+}
+
+form > input[type="submit"] {
+  width: 120px;
+  padding: 5px;
+  margin-top: 10px;
+  border: none;
+  background-color: gold;
+  font-weight: bold;
+}
+
+#features {
+  width: 100%;
+  padding-top: 50px;
+}
+
+.fa-solid {
+  font-size: 50px;
+  color: orangered;
+}
+
+#features > article {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  margin-bottom: 50px;
+}
+
+#features article h3 {
+  font-size: 23px;
+}
+
+#features article p {
+  font-size: 14px;
+}
+
+#how-it-works {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+video {
+  width: 500px;
+  border-radius: 10px;
+  padding-top: 50px;
+}
+
+#pricing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+#pricing .items {
+  width: 280px;
+  text-align: center;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+#pricing .item {
+  background-color: #ddd;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+#pricing span {
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+#pricing p {
+  margin-top: 10px;
+}
+
+#pricing button {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 100px;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  border-radius: 6px;
+  background-color: gold;
+}
+
+footer {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ddd;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  flex-direction: column;
+}
+footer p {
+  font-size: 12px;
+
+}
+
+footer li {
+  margin-left: 20px;
+}
